@@ -1,0 +1,13 @@
+server:
+  port: 8083
+spring:
+  application:
+    name: zuul
+zuul:
+  #ignored-headers: uu
+  routes:
+    #first: /first/**
+      #path: /first/**
+      #url: http://localhost:8080
+    client : /client1/**
+    client1 : /client0/**

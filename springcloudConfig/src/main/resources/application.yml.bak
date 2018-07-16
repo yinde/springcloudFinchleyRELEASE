@@ -1,0 +1,18 @@
+server:
+  port: 8888
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/yinde/test
+          searchPaths: '{application}'
+          username: yinde
+          password: yd7210140
+      #label: master
+  application:
+    name: config-server
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8762/eureka/
