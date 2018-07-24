@@ -1,19 +1,19 @@
 #server:
 #  port: 8080
-spring:
-  cloud:
-     bus:
-      trace:
-        enabled: true
-     config:
-      discovery:
-        enabled: true
-        service-id: config-server
-      label: master
-      profile: dev
-      name: client,common
-      
-      
+#spring:
+#  cloud:
+#     bus:
+#      trace:
+#        enabled: true
+#     config:
+#      discovery:
+#        enabled: true
+#        service-id: config-server
+#      label: master
+#      profile: dev
+#      name: client,common
+      #uri: http://localhost:8889
+
 #management:
 #  endpoints:
 #    web:

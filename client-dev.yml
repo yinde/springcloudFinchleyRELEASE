@@ -1,7 +1,7 @@
-server:
-  port: 8080
-spring:
-  application:
-    name: client
-aa:
-  bb: fdfdfd
+#server:
+#  port: 8080
+#spring:
+#  application:
+#    name: client
+#aa:
+#  bb: fdfdfd
